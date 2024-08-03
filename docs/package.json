@@ -1,0 +1,13 @@
+{
+  "name": "@vegetables-school/docs",
+  "type": "module",
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "latest",
+    "@vegetables-school/ui": "workspace:*"
+  }
+}
