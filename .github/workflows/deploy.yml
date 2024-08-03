@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "18"
 
-      - run: npx nypm install
+      - run: pnpm install
       - run: pnpm run docs-build
         env:
           NITRO_PRESET: github_pages
@@ -25,7 +25,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.output/public
+          path: ./docs/.output/public
 
   # Deployment job
   deploy:
