@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "docs": "pnpm -C ./docs dev"
+    "docs": "pnpm -C ./docs dev",
+    "docs-build": "pnpm -C ./docs build"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
