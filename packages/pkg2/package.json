@@ -1,0 +1,14 @@
+{
+  "name": "@vegetables-school/pkg2",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vegetables-school/pkg1": "workspace:*"
+  }
+}
